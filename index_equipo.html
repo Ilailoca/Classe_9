@@ -1,155 +1,158 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./estilos_equipo.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./estilos_equipo.css" />
     <title>Davinia Style</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-        href="https://fonts.googleapis.com/css2?family=Playwrite+NZ+Basic:wght@100..400&family=Space+Grotesk:wght@300..700&display=swap"
-        rel="stylesheet">
-    <link rel="shortcut icon" href="./images/IMG_3889.jpg" type="image/x-icon">
-</head>
+      href="https://fonts.googleapis.com/css2?family=Playwrite+NZ+Basic:wght@100..400&family=Space+Grotesk:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="./images/IMG_3889.jpg"
+      type="image/x-icon"
+    />
+  </head>
 
-<body>
-
+  <body>
     <main class="main-container">
+      <header>
+        <img src="./images/IMG_3889.jpg" alt="logo" class="logo" />
+        <nav>
+          <ul>
+            <li class="main-menu">Opcion 1</li>
+            <li class="main-menu">Opcion 2</li>
+            <li class="main-menu">Opcion 3</li>
+          </ul>
+        </nav>
+      </header>
 
-        <header>
+      <div class="info">
+        <h1>Davinia Style: ¡Dejate mimar!</h1>
+        <p>
+          Bienvenidos a Davinia Sytle, donde el estilo y la elegancia se unen.
+          Nuestro equipo de profesionales está aquí para ofrecerte un servicio
+          personalizado y de alta calidad, adaptándonos a tus necesidades y
+          gustos. Desde cortes de moda hasta tratamientos de belleza, estamos
+          comprometidos con hacer que te sientas como una estrella. ¡Ven y
+          descubre nuestro espacio, donde la pasión por el cabello se hace
+          realidad!
+        </p>
+      </div>
 
+      <form>
+        <div class="form-content">
+          <label for="name">Nombre:</label>
+          <input type="text" name="name" />
 
-            <img src="./images/IMG_3889.jpg" alt="logo" class="logo">
-            <nav>
-                <ul>
-                    <li class="main-menu"> Opcion 1 </li>
-                    <li class="main-menu"> Opcion 2 </li>
-                    <li class="main-menu"> Opcion 3 </li>
-                </ul>
-            </nav>
-        </header>
+          <br />
+          <br />
 
-        <div class="info">
-            <h1>Davinia Style: ¡Dejate mimar!</h1>
-            <p>Bienvenidos a Davinia Sytle, donde el estilo y la elegancia se unen. Nuestro equipo de profesionales está
-                aquí para ofrecerte un servicio personalizado y de alta calidad, adaptándonos a tus necesidades y
-                gustos. Desde cortes de moda hasta tratamientos de belleza, estamos comprometidos con hacer que te
-                sientas como una estrella. ¡Ven y descubre nuestro espacio, donde la pasión por el cabello se hace
-                realidad!</p>
+          <label for="email">Email:</label>
+          <input type="email" name="email" />
+          <br />
+          <br />
 
+          <label for="phone">Telefono:</label>
+          <input type="tel" name="phone" />
+          <br />
+          <br />
+
+          <!-- Genero -->
+          <label for="">Genero: </label> <br />
+          <label for="hombre">
+            <input type="radio" name="genero" id="" value="hombre" />Hombre
+          </label>
+
+          <label for="mujer">
+            <input type="radio" name="genero" id="" value="mujer" /> Mujer
+          </label>
+
+          <br />
+          <br />
+
+          <label for="fdn">Fecha de nacimiento: </label>
+          <input type="date" />
+
+          <br />
+          <br />
+
+          <label for=""> Mensaje: </label> <br />
+          <textarea id="w3review" name="w3review" rows="10" cols="50">
+ Escribe tu mensaje aquí. </textarea
+          >
+
+          <br />
+          <br />
+          <label for="">
+            <input type="checkbox" name="primeracita" id="" /> ¿Es tu primera
+            cita?
+          </label>
+
+          <br />
+          <br />
+
+          <label for="fcita">Fecha de cita: </label> <br />
+          <input type="date" />
+
+          <br />
+          <br />
+
+          <label for=""> ¿Como quieres la confimacion? </label> <br />
+
+          <label for="telefono">
+            <input type="radio" name="contact" id="" value="tel" /> Telefono
+          </label>
+
+          <label for="email">
+            <input type="radio" name="contact" id="" value="email" /> Email
+          </label>
+
+          <br />
+          <br />
+          <input type="checkbox" name="condiciones" id="" />
+          <label for=""> Acepto los términos y condiciones </label>
+
+          <br />
+          <br />
+
+          <input type="submit" value="Pedir cita" id="cita" />
         </div>
+      </form>
 
-        <form>
-            <label for="name">Nombre:</label>
-            <input type="text" name="name">
+      <footer class="site-footer">
+        <ul>
+          <li>
+            <a href="https://x.com" target="_blank">
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 44 36"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M42.1069 5.40802C40.601 6.07476 39.0039 6.51248 37.3685 6.70665C39.0694 5.68457 40.3778 4.06936 40.9935 2.14194C39.3741 3.10289 37.6024 3.77992 35.7549 4.14376C34.9835 3.31997 34.0509 2.66365 33.015 2.21561C31.9792 1.76756 30.8623 1.53736 29.7337 1.53932C25.1796 1.53932 21.4833 5.23203 21.4833 9.78724C21.4833 10.4345 21.5561 11.0653 21.6988 11.6677C14.8413 11.3232 8.76377 8.04068 4.69395 3.04934C3.98332 4.26613 3.57798 5.68457 3.57798 7.19665C3.57798 10.0571 5.03387 12.5823 7.24708 14.0618C5.93672 14.0216 4.6551 13.6678 3.50974 13.03V13.1351C3.50974 17.1306 6.35379 20.4646 10.126 21.224C8.91112 21.553 7.6373 21.6012 6.401 21.3651C7.45129 24.6427 10.499 27.027 14.1076 27.0963C11.2846 29.3052 7.72785 30.6264 3.86172 30.6264C3.20432 30.6256 2.54751 30.5871 1.89453 30.5109C5.54516 32.8506 9.88257 34.218 14.5412 34.218C29.7158 34.218 38.0124 21.6463 38.0124 10.7441C38.0124 10.3876 38.0124 10.031 37.9868 9.67692C39.6012 8.50891 40.9953 7.0635 42.1043 5.40802H42.1069Z"
+                  fill="white"
+                ></path>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.tiktok.com/">
+              <img src="./images/tiktok.svg" alt="" />
+            </a>
+          </li>
+        </ul>
 
-            <br>
-            <br>
+        <p>2026 - Davinia Style | Todos los derechos reservados</p>
 
-            <label for="email">Email:</label>
-            <input type="email" name="email">
-            <br>
-            <br>
-
-            <label for="phone">Telefono:</label>
-            <input type="tel" name="phone">
-            <br>
-            <br>
-
-
-            <!-- Genero -->
-            <label for="hombre">Hombre </label>
-            <input type="radio" name="genero" id="" value="hombre">
-
-            <label for="mujer">mujer </label>
-            <input type="radio" name="genero" id="" value="mujer">
-            <br>
-            <br>
-
-
-            <label for="fdn">Fecha de nacimiento: </label>
-            <input type="date">
-
-            <br>
-            <br>
-
-
-            <label for=""> Mensaje: </label> <br>
-            <textarea id="w3review" name="w3review" rows="10" cols="50"> Escribe tu mensaje aquí. </textarea>
-
-
-
-            <br>
-            <br>
-            <label for=""> ¿Es tu primera cita? </label>
-            <input type="checkbox" name="primeracita" id="">
-
-            <br>
-            <br>
-
-            <label for="fcita">Fecha de cita: </label>
-            <input type="date">
-
-            <br>
-            <br>
-
-
-            <label for=""> ¿Como quieres la confimacion? </label>
-
-            <label for="telefono">Telefono </label>
-            <input type="radio" name="contact" id="" value="tel">
-
-            <label for="email">Email </label>
-            <input type="radio" name="contact" id="" value="email">
-
-            <br>
-            <br>
-            <input type="checkbox" name="condiciones" id="">
-            <label for=""> Acepto los términos y condiciones </label>
-
-            <br>
-            <br>
-
-            <input type="submit" value="Pedir cita" id="cita">
-
-
-
-        </form>
-
-
-
-
-
-        <footer>
-            <ul>
-                <li> <a href="https://x.com" target="_blank">
-                        <svg width="20" height="20" viewBox="0 0 44 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path
-                                d="M42.1069 5.40802C40.601 6.07476 39.0039 6.51248 37.3685 6.70665C39.0694 5.68457 40.3778 4.06936 40.9935 2.14194C39.3741 3.10289 37.6024 3.77992 35.7549 4.14376C34.9835 3.31997 34.0509 2.66365 33.015 2.21561C31.9792 1.76756 30.8623 1.53736 29.7337 1.53932C25.1796 1.53932 21.4833 5.23203 21.4833 9.78724C21.4833 10.4345 21.5561 11.0653 21.6988 11.6677C14.8413 11.3232 8.76377 8.04068 4.69395 3.04934C3.98332 4.26613 3.57798 5.68457 3.57798 7.19665C3.57798 10.0571 5.03387 12.5823 7.24708 14.0618C5.93672 14.0216 4.6551 13.6678 3.50974 13.03V13.1351C3.50974 17.1306 6.35379 20.4646 10.126 21.224C8.91112 21.553 7.6373 21.6012 6.401 21.3651C7.45129 24.6427 10.499 27.027 14.1076 27.0963C11.2846 29.3052 7.72785 30.6264 3.86172 30.6264C3.20432 30.6256 2.54751 30.5871 1.89453 30.5109C5.54516 32.8506 9.88257 34.218 14.5412 34.218C29.7158 34.218 38.0124 21.6463 38.0124 10.7441C38.0124 10.3876 38.0124 10.031 37.9868 9.67692C39.6012 8.50891 40.9953 7.0635 42.1043 5.40802H42.1069Z"
-                                fill="white"></path>
-                        </svg>
-                    </a> </li>
-                <li> <a href=""> TickTock </a> </li>
-                
-            </ul>
-
-            <p> 2026 - Davinia Style | Todos los derechos reservados </p>
-
-            <p>Calle Anabel Segura, 7 Planta Aula A1 </p>
-
-
-
-
-        </footer>
-
-
+        <p>Calle Anabel Segura, 7 Planta Aula A1</p>
+      </footer>
     </main>
-
-
-
-
-</body>
-
+  </body>
 </html>
