@@ -1,0 +1,95 @@
+body {
+    font-family: "Playwrite NZ Basic", sans-serif;;
+    background: linear-gradient(nulldeg,rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+    font-weight: 600;
+}
+
+.main-container {
+    position: relative;
+}
+
+header {
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: radial-gradient(circle,rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+    
+    height: 178px;
+
+  /* position: fixed;
+  top: 0;  
+  width: 300px;
+  height: 200px;
+  width: 100%;
+  background: linear-gradient(nulldeg,rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%); */
+
+    
+}
+
+form {
+        margin: 80px 80px;
+
+}
+
+.info {
+    margin-top: 200px;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+.logo {
+    width: 250px;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+    
+}
+
+nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-top: 84px;
+    /* background-color: red; */
+    width: 80%;
+    text-align: center;
+    
+    
+}
+
+ul  {
+    list-style-type: none;
+    
+}
+
+li {
+    display: inline;
+    color: white;
+    border: 1px solid black;
+    margin-right: 50px;
+}
+#cita {
+    background-color:#d4207d;
+    color: white;
+    padding: 11px 14px;
+    font-family: "Playwrite NZ Basic", sans-serif;;
+    font-weight: 600;
+}
+
+#cita:hover {
+        background-color:#a71660;
+
+}
+footer {
+    background: radial-gradient(circle,rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+    padding: 10px 10px;
+    margin-top:60px;
+}
+
