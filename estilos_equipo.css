@@ -4,18 +4,19 @@ body {
     font-weight: 600;
 }
 
-.main-container {
-    position: relative;
+.main-container {   
+    margin: 0 80px;
+    
 }
 
 header {
     
+    
     position: fixed;
     top: 0;
-    left: 0;
-    width: 100%;
-    background: radial-gradient(circle,rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
-    
+    /* left: 0; */
+    width: 87%;
+    background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
     height: 178px;
 
   /* position: fixed;
@@ -30,11 +31,16 @@ header {
 
 form {
         margin: 80px 80px;
+        background-color: #fff2f3;
+            padding: 51px 154px;
+
 
 }
 
 .info {
-    margin-top: 200px;
+    
+    margin: 178px 80px;
+    
 }
 
 h1 {
@@ -64,9 +70,12 @@ nav {
     
 }
 
+
+
+
 ul  {
     list-style-type: none;
-    
+    color: red;    
 }
 
 li {
@@ -74,7 +83,16 @@ li {
     color: white;
     border: 1px solid black;
     margin-right: 50px;
+        
 }
+
+li:hover {
+    color:#d4207d
+}
+
+
+
+
 #cita {
     background-color:#d4207d;
     color: white;
