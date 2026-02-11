@@ -1,0 +1,98 @@
+Documentacion "Vision"
+
+Cliente:  Davinia Style  (Peluqueria)
+Dirrecion:  Calle Anabel Segura 7, P.B
+
+
+Reunion: 10/02/2026  - 10:00am 
+ 
+Participante: 
+	- Clientes: Davinia La Rosa
+	- Analista funcional: Douglas
+	
+Introduccion
+
+	Con el objetivo de poder incoprorarse al mercado digital de internet, el cliente
+	Davinia Style, requiere iniciar un proceso de desarrollo de una pagina WEB, la cual 
+	le permita de manera iniciar su contacto con los clientes, posteriormente fortalecer
+	nuevas opciones de servicios y productos, orientados a la peluqueria o belleza. 
+
+Objetivo principal: 
+     Desarrollara una pagina WEB, basica para el primer contacto entre Davinia Style y sus clientes
+	 
+	
+Contexto
+
+	La nueva pagina WEB, solo deben contar una imagen inicial de "Davinia Style", un formulario de
+	captura de datos basico de los clientes, asi como los enlaces basicos a las redes sociales: 
+	Instagram, Ticktopk y X.
+
+
+Coleres corporativos; Fucsia y Blanco (no se descarta un 3er color, que pemita dinamismo cromatico a
+     la WEB. 	 
+ 	
+
+Flujo de contenido: 
+
+	Cabecera --->  Formulario  --->  Contactos
+
+
+
+Cabecera: 
+
+ 	Colocar LOGO de la empresa, presentado barra  con colores corporativos
+	Colocar un menu horizontal con 3 opciones (Opcion1, Opcion 2, Opcion3),
+	estas opciones inicialmente solo se presentaran, pero no tendran funcionalidad, 
+	sera un evolutivo posterior, a la implementacion de esta 1ra. solucion. 
+
+Detalle del cuerpo 
+
+	Formulario de contacto: el cual contendra: 
+
+	Nombre del cliente  	(Tipo=Alfanumerico)
+	Email: 					(Tipo=Alfanumerico)
+	Telefono:				(Tipo=Telefono)
+	Sexo  (Hombre/Mujer)	(Tipo=Radio / Opcion excluyente, solo una)
+	Fecha de nacimiento     (Tipo=fecha) formato dd-mm-yyyy
+	Mensaje u observacion de cliente (Tipo=Texto) . Aqui es cliente podra 
+                             colocara cualquier mensaje. No es un datos 
+ 							 obligatorio. 
+	Es su 1ra cita?         (Tipo Seleccion, marca con "check")
+
+	Presntara calendario para reservar cita: (Tipo=Fecha)
+
+	Deseas recibir confiracion de la cita,  via telefonica/email?  
+						    (tipo=Seleccion), si la seleccion  es cierta, se         
+							 debera verificar si fue colocado el numero d e telf. 
+	
+	Aceptacion de terminos y condiciones de la ley de proteccion de datos. 
+							 
+							 
+	Boton para pedir CITA
+							 
+Pie de pagina 
+	Conexion a las redes sociales 
+	Presentar los derechos de autor
+	Ubicacion:						 
+
+
+
+Estimaciones relacionada a la actividad
+
+Fecha de inicio  : 10/02/2026
+Fecha 1ra entrega: ??/02/2026
+
+Tiempos estimado 32hrs: 
+	- Analisis / Documentacion / Aprobacion : 16hrs
+    - Diseño digital                        : 8hrs
+	- Desarrollo tecnico (Programacion)     : 8hrs
+	- Documentacion                         : 4hrs 
+	
+	
+Cantidad de recurso (3) :
+	- Analista funcional
+	- Diseñador grafico
+	- Desarrollo tecnico "Programador" 
+
+
+
